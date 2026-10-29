@@ -164,6 +164,18 @@ Prioritise tasks according to their expected value and available preparation tim
 
 ## TASK 7 — MAINTAIN PROJECT CONTINUITY
 
+Identify every meeting by its sequential number and date in its folder, filenames,
+document title and PDF metadata. Preserve the existing folder
+`2a_Reuniao 29-10-26`; use `<number>a_Reuniao DD-MM-AA` for subsequent meetings,
+with documents named `resumo_<number>a_reuniao_YYYY-MM-DD.md` and `.pdf`.
+Do not invent the next meeting date to create a folder. Record unconfirmed dates,
+times, locations and attendance arrangements explicitly as pending.
+
+When a meeting defines teams or departments, record the agreed structure, scope,
+identified members and leaders with supporting timestamps. Separate the final
+agreement from alternatives discussed earlier. Give the next meeting its own
+explicit status and preparation section.
+
 Compare the current meeting with previous UAS 2027 meetings when their records are available.
 
 Track:

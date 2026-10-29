@@ -1,6 +1,6 @@
 # UAS 2027 — Preparação e acompanhamento da reunião online (29/10/2026)
 
-**Estado:** preparação; preencher durante e após a reunião. Este modelo pode ser reutilizado nas próximas reuniões.
+**Estado:** documento de preparação anterior à 2.ª reunião, preservado como referência. O resultado está no [resumo da 2.ª reunião — 29/10/2026](../2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.md) e no respetivo [PDF](../2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.pdf). Para os próximos registos, seguir a convenção de número e data em [Reuniões](../README.md).
 
 ## Contexto confirmado e objetivos
 - Integração na equipa ISEP UAS comunicada.
