@@ -19,14 +19,18 @@
 ## Possível contributo
 Embedded C/C++, microcontroladores, UART/SPI/I²C/CAN, sensores, telemetria, Linux, testes, logging, integração e fiabilidade. Não assumir atribuição formal a Eletro.
 
-## Perguntas prioritárias (não repetir se já respondidas)
-1. Como ficou organizada a equipa e quem coordena Eletro?
-2. Qual é o estado da arquitetura (asa fixa/híbrido), protótipo e lista de hardware?
-3. Qual a classe AeroCup pretendida: Manual, Automatic ou ambas?
-4. Já existe flight controller, ArduPilot/PX4 ou outro software escolhido?
-5. Quais os limites de massa, alimentação, telemetria e integração com estruturas?
-6. Como serão geridas tarefas, GitHub, documentação e reuniões seguintes?
-7. Qual é a minha primeira tarefa concreta, responsável de referência e prazo?
+## Perguntas de acompanhamento — apenas novidades desde 13/10
+A reunião inicial já estabeleceu **AeroCup 2027 como objetivo principal**, **UAS Challenge UK como ambição posterior**, **primeiro voo controlado antes da autonomia**, **protótipo desejado em janeiro/fevereiro** e **asa fixa/híbrido ainda em estudo**. Não voltar a perguntar estes pontos como se fossem desconhecidos.
+
+1. Desde 13/10, que decisões foram efetivamente tomadas sobre a configuração asa fixa vs. híbrida?
+2. Já foi designado o responsável de Eletro e como serão distribuídas as tarefas entre departamentos?
+3. Que progresso houve na lista de hardware, fornecedores, parcerias e orçamento?
+4. O objetivo de protótipo em janeiro/fevereiro mantém-se? Quais os marcos intermédios?
+5. Que interfaces entre Eletro, Estruturas e Aerodinâmica precisam de ser definidas primeiro?
+6. Há alguma escolha nova de flight controller, ArduPilot/PX4, comunicações ou alimentação?
+7. Que entregável concreto posso assumir até à próxima reunião?
+
+**Nota:** perguntar por alterações e decisões novas; não repetir informação já estabelecida. A UAS Challenge UK só deve ser retomada se houver novidades ou decisão de calendário.
 
 ## Notas em direto
 | Tema | Informação dita / evidência | Responsável | Prazo | Estado |
