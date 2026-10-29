@@ -1,0 +1,11 @@
+﻿id,data_base,assunto,estado,conteudo,decisores_ou_interlocutores,evidencia,pendencia
+D01,2026-10-29,Estrutura Eletro,confirmada_na_reuniao,Hardware e Software/Comunicações como dois departamentos iniciais,Coordenação e participantes,Gravação 17:58–18:22,Distribuição completa dos restantes membros
+D02,2026-10-29,Liderança Software/Comunicações,confirmada_na_reuniao,André e Rita em liderança conjunta,Coordenação; André e Rita,Gravação 32:11–32:33,Divisão operacional de tarefas
+D03,2026-10-29,Liderança Hardware,confirmada_na_reuniao,Eduardo e Beatriz em liderança conjunta,Coordenação; Eduardo e Beatriz,Gravação 32:11–32:33,Interfaces e distribuição de tarefas
+D04,2026-10-29,Prioridade técnica,confirmada_na_reuniao,Foco inicial no voo manual com estudo da autonomia,Coordenação e departamentos,Gravação 29:47–29:57,Classe e funções a confirmar
+D05,2026-10-29,Próximo encontro,intencao_de_planeamento,Encontros por departamento idealmente na semana seguinte,Coordenação e grupos,Gravação 34:19–35:03,Dia e hora e plataforma por confirmar
+P01,2026-10-29,Plataforma inicial,proposta_pos_reuniao,Avaliar primeiro ArduPlane em SITL mantendo PX4 como alternativa,André e Rita com Hardware e coordenação,Documento 02,Aceitação da equipa e inventário
+P02,2026-10-29,Primeiro entregável,proposta_pos_reuniao,Baseline 0.1 de requisitos e interfaces com plano de ensaio,André e Rita com Hardware,Documento 04,Aceitação e prazo a combinar
+P03,2026-10-29,Divisão operacional,proposta_pos_reuniao,André inicia requisitos/interfaces/registos e Rita escolhe área a aprofundar,André e Rita,Documentos 04 e 05,Preferências e disponibilidade a alinhar
+P04,2026-10-29,Empresas,pesquisa_preparada,Sete entidades para encaminhamento pela área de empresas/patrocínios,Área de empresas; apoio técnico de André/Rita,Documento 03 e CSV de empresas,Priorizar e confirmar contactos anteriores
+P05,2026-10-29,Validação das comunicações,proposta_pos_reuniao,Tratar perda RC e perda de telemetria em casos de ensaio separados,Software/Comunicações com Hardware e piloto,Documento 02,Política de falha e critérios aprovados

@@ -5,7 +5,7 @@
 | Reunião | Data | Documentação |
 |---|---|---|
 | 1.ª reunião — recrutamento e apresentação | 13/10/2026 | [Resumo](1a_Reuniao/resumo_1a_reuniao.md) |
-| 2.ª reunião | 29/10/2026 | [Resumo detalhado](2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.md) · [PDF](2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.pdf) |
+| 2.ª reunião | 29/10/2026 | [Resumo detalhado](2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.md) · [PDF](2a_Reuniao%2029-10-26/resumo_2a_reuniao_2026-10-29.pdf) · [Preparação e trabalho de André](2a_Reuniao%2029-10-26/preparacao_Andre_2a_reuniao_2026-10-29/00_comecar_Andre_2a_reuniao_2026-10-29.md) |
 
 ## Convenção para as próximas reuniões
 

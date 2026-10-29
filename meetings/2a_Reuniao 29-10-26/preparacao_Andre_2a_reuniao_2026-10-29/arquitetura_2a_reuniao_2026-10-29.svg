@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+  <title id="title">UAS 2027 — 2.ª reunião — 29/10/2026 — Arquitetura funcional proposta</title>
+  <desc id="description">Caminhos funcionais distintos para comando RC, telemetria e sensores, convergindo num controlador de voo candidato que comanda os atuadores. Proposta para discussão, sem esquema elétrico aprovado.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto-start-reverse"><path d="M0,0 L10,4 L0,8 Z" fill="#205578"/></marker>
+    <style>
+      text {font-family:DejaVu Sans,sans-serif; fill:#172d3d}
+      .box {fill:#f4f8fb;stroke:#8caac0;stroke-width:1.5;rx:12}
+      .main {fill:#dcebf5;stroke:#205578;stroke-width:2;rx:14}
+      .label {font-size:17px;font-weight:bold;text-anchor:middle}
+      .small {font-size:14px;text-anchor:middle;fill:#486073}
+      .line {fill:none;stroke:#205578;stroke-width:2.5;marker-end:url(#arrow)}
+      .both {marker-start:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="white"/>
+  <text x="35" y="40" font-size="24" font-weight="bold">UAS 2027 — Arquitetura funcional proposta</text>
+  <text x="35" y="68" font-size="16" fill="#486073">Seguimento da 2.ª reunião — 29/10/2026 · André e Rita · Opções sujeitas a revisão da equipa</text>
+  <rect class="box" x="35" y="120" width="210" height="90"/>
+  <text class="label" x="140" y="156">Piloto / emissor RC</text>
+  <text class="small" x="140" y="184">Comando manual</text>
+  <rect class="box" x="330" y="120" width="210" height="90"/>
+  <text class="label" x="435" y="156">Recetor RC</text>
+  <text class="small" x="435" y="184">Interface a confirmar</text>
+  <path class="line" d="M245 165 H325"/>
+  <text class="small" x="285" y="150">rádio</text>
+  <rect class="box" x="35" y="310" width="210" height="90"/>
+  <text class="label" x="140" y="346">Computador / GCS</text>
+  <text class="small" x="140" y="374">QGC / MAVProxy: candidatos</text>
+  <rect class="box" x="330" y="310" width="210" height="90"/>
+  <text class="label" x="435" y="346">Telemetria</text>
+  <text class="small" x="435" y="374">Transporte a selecionar</text>
+  <path class="line both" d="M250 355 H325"/>
+  <rect class="box" x="330" y="495" width="210" height="90"/>
+  <text class="label" x="435" y="530">Sensores</text>
+  <text class="small" x="435" y="557">GNSS / outros: a definir</text>
+  <rect class="main" x="720" y="245" width="215" height="125"/>
+  <text class="label" x="827" y="279">Controlador de voo</text>
+  <text class="small" x="827" y="309">ArduPlane / PX4</text>
+  <text class="small" x="827" y="335">Placa e firmware candidatos</text>
+  <path class="line" d="M540 165 H650 V275 H715"/>
+  <text class="small" x="625" y="145">SBUS / CRSF: opções</text>
+  <path class="line both" d="M545 355 H635 V320 H715"/>
+  <text class="small" x="630" y="400">MAVLink: candidato</text>
+  <path class="line" d="M540 540 H675 V350 H715"/>
+  <text class="small" x="820" y="590">UART / I²C / CAN: conforme periférico</text>
+  <rect class="box" x="1000" y="245" width="170" height="125"/>
+  <text class="label" x="1085" y="282">Servos / ESC</text>
+  <text class="small" x="1085" y="311">Mapeamento</text>
+  <text class="small" x="1085" y="338">a validar</text>
+  <path class="line" d="M935 305 H995"/>
+  <rect x="35" y="620" width="1135" height="58" rx="10" fill="#eef3f7"/>
+  <text x="50" y="644" font-size="14">Linhas = funções, não ligações elétricas finais. Alimentação, tensões, conectores e implantação: fechar com Hardware.</text>
+  <text x="50" y="666" font-size="14">RC e telemetria têm casos de falha distintos. A classe e a configuração da aeronave continuam por confirmar.</text>
+</svg>

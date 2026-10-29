@@ -52,6 +52,8 @@ class PDF:
             layout.set_text(value, -1)
         else:
             layout.set_markup(markup(value), -1)
+        links = re.findall(r"\[[^\]]+\]\((https?://[^)]+)\)", value)
+        layout.pdf_uri = links[0] if len(links) == 1 else None
         return layout
 
     @staticmethod
@@ -71,7 +73,20 @@ class PDF:
     def draw(self, layout, x, y, color=INK):
         self.ctx.set_source_rgb(*color)
         self.ctx.move_to(x, y)
+        tagged = False
+        if getattr(layout, "pdf_uri", None):
+            clip_left, clip_top, clip_right, clip_bottom = self.ctx.clip_extents()
+            width, height = (v / Pango.SCALE for v in layout.get_size())
+            left, top = max(x, clip_left), max(y, clip_top)
+            right, bottom = min(x + width, clip_right), min(y + height, clip_bottom)
+            if right > left and bottom > top:
+                uri = layout.pdf_uri.replace("\\", "\\\\").replace("'", "\\'")
+                self.ctx.tag_begin(cairo.TAG_LINK,
+                                   f"uri='{uri}' rect=[{left} {top} {right-left} {bottom-top}]")
+                tagged = True
         PangoCairo.show_layout(self.ctx, layout)
+        if tagged:
+            self.ctx.tag_end(cairo.TAG_LINK)
 
     def new_page(self):
         if self.page:
